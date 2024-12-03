@@ -2,4 +2,174 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    padding: 16px 10%;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+p, a {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 10px 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding:0 10px;
+    list-style-type: none;
+    color: #F9FAF8;
+    margin: auto;
+}
+
+section:nth-child(2){
+    background-color: #1F2937;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.hero{
+    flex: auto;
+    margin-top: 20px;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 280px;
+}
+
+.place {
+    color:#F9FAF8;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 550px;
+    min-height: 270px;
+    max-height: 280px;
+    flex: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+a {
+    background-color: #3882F6;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.img-list{
+    display: flex;
+    justify-content: center ;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card p {
+    text-align: center;
+    color: #1F2937;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+section:nth-child(4) {
+    background-color: #E5E7EB;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.reference {
+    color:#000000;
+    margin-left: 70%;
+}
+
+
+.cta {
+    background-color: #3882F6;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnc{
+    display: flex;
+    align-items: center;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
